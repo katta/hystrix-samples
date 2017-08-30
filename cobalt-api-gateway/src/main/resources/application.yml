@@ -1,0 +1,9 @@
+zuul:
+  routes:
+    app1: /app1/**
+    app2: /app2/**
+server:
+  port: 8765
+management:
+  security:
+    enabled: false
