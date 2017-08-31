@@ -1,4 +1,4 @@
-package com.barclays.cobalt.cobaltservicediscoveryserver;
+package com.barclays.cobalt.cobaltserviceapp1;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ApplicationTests {
+public class App1Tests {
 
   @Test
   public void contextLoads() {

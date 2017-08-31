@@ -1,4 +1,4 @@
-package com.barclays.cobalt.cobaltserviceapp1;
+package com.barclays.cobalt.cobaltserviceapp2;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,17 +14,17 @@ import java.util.Random;
 @SpringBootApplication
 @EnableDiscoveryClient
 @RestController
-public class Application {
+public class App2 {
 
-  private static final Logger logger = LoggerFactory.getLogger(Application.class);
+  private static final Logger logger = LoggerFactory.getLogger(App2.class);
   private final Random random;
 
-  public Application() {
+  public App2() {
     random = new Random();
   }
 
   public static void main(String[] args) {
-    SpringApplication.run(Application.class, args);
+    SpringApplication.run(App2.class, args);
   }
 
 

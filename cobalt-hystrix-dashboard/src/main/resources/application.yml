@@ -1,2 +1,12 @@
 server:
   port: 8083
+
+turbine:
+  aggregator:
+    clusterConfig: API-GATEWAY
+  appConfig: api-gateway
+  combine-host-port: true
+
+management:
+  security:
+    enabled: false
